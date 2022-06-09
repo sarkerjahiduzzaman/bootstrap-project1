@@ -90,7 +90,7 @@ header{
 /*About section start*/
 /*Cannot worke */
 .hr-style{
-    border: 5px dotted white;
+    border: 5px dotted #e8ded2;
     border-bottom: none;
     width: 50px;
     text-align: center; 
@@ -125,3 +125,47 @@ header{
  
 
 /*About section ends here*/
+
+/*Turorial Section start Here*/
+
+#tutorial{
+    background-color: #a3d2ca;
+    padding: 4% 10%;
+}
+.card{
+    transition: 0.4s;
+    border: 1px solid #bb0aac;
+    border-radius: 5px;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+/*Tutorial Section End Here*/
+/*Feedbacl section Start Here*/
+#feedback{
+    background-color: #5ea888;
+    padding: 4% 10%;
+}
+
+
+/*Feedback section end here*/
+
+/*Contact section started herer*/
+#contact{
+    background-color: #5ea888;
+    padding: 4% 10%;
+}
+.form-group label{
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+/*Contact section end here*/
+
+/*footer section*/
+footer{
+    padding: 2% 10%;
+    background-color: #506676;
+}
+/*footer section end here*/
